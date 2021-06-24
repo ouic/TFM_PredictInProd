@@ -11,7 +11,7 @@ PATH_TO_LOCAL_MODEL = 'model.joblib'
 
 AWS_BUCKET_TEST_PATH = "s3://wagon-public-datasets/taxi-fare-test.csv"
 
-BUCKET_NAME = "XXX"  # ⚠️ replace with your BUCKET NAME
+BUCKET_NAME = "wagon-data-630-eric-pinto"  # ⚠️ replace with your BUCKET NAME
 
 
 def get_test_data(nrows, data="s3"):
